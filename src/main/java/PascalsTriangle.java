@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class PascalsTriangle {
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list = new ArrayList<>();
 
