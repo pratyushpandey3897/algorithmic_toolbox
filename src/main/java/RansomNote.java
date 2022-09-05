@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         HashMap<Character, Integer> magMap = new HashMap<Character, Integer>();

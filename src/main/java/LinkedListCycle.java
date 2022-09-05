@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
  * Definition for singly-linked list.
  * class ListNode {

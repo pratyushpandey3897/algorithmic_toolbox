@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.HashMap;
 class UniqueStringChar {
     public static int firstUniqChar(String s) {
         HashMap<Character,Integer> map = new HashMap<Character,Integer>();

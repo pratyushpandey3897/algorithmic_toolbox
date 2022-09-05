@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class MaximumDepthTree {
     public int maxDepth(TreeNode root) {
         
         if (root == null)

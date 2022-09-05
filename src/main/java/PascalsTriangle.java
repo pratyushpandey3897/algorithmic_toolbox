@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 class PascalsTriangle {
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list = new ArrayList<>();

@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class InsertInBinarySearchTree {
     public TreeNode insertIntoBST(TreeNode root, int val) {
         
         TreeNode newNode = new TreeNode(val);

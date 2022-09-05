@@ -1,6 +1,8 @@
+import java.util.HashMap;
+
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
-        HashMap <Character, Integer> map1 = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> map1 = new HashMap<Character, Integer>();
         for (int i=0; i <s.length(); i++){
             map1.put(s.charAt(i), map1.getOrDefault(s.charAt(i),0)+1);
         }

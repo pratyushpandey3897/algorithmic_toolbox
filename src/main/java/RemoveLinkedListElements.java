@@ -1,3 +1,4 @@
+
 class RemoveLinkedListElements {
     public ListNode removeElements(ListNode head, int val) {
         if (head==null) return null;
